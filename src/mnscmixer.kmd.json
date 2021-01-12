@@ -45,7 +45,7 @@
     {
       "name": "mnscmixer",
       "doc": "mnscmixer interface. Documentation about the module",
-      "extends": "Filter",
+      "extends": "Hub",
       "constructor": {
         "params": [
           {
