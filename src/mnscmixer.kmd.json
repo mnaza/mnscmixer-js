@@ -45,7 +45,7 @@
     {
       "name": "mnscmixer",
       "doc": "mnscmixer interface. Documentation about the module",
-      "extends": "Hub",
+      "extends": "Filter",
       "constructor": {
         "params": [
           {
@@ -55,7 +55,25 @@
           }
         ],
         "doc": "Create an element"
-      }
+      },
+      "methods": [
+        {
+          "params": [
+            {
+              "name": "sink_id",
+              "doc": "Source port to be connected",
+              "type": "int"
+            },
+            {
+              "name": "param",
+              "doc": "Source port to be connected",
+              "type": "int"
+            }
+          ],
+          "name": "focus",
+          "doc": "."
+        }
+      ]
     }
   ],
   "complexTypes": [],
